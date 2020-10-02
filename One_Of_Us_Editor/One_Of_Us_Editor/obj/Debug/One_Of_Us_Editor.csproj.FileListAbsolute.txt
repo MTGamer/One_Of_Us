@@ -1,0 +1,13 @@
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\bin\Debug\One_Of_Us_Editor.exe.config
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\bin\Debug\One_Of_Us_Editor.exe
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\bin\Debug\One_Of_Us_Editor.pdb
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.csprojAssemblyReference.cache
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.Properties.Resources.resources
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.csproj.GenerateResource.cache
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.csproj.CoreCompileInputs.cache
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.exe
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.pdb
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.FinishLevel.resources
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.ModeSelect.resources
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.HUB.resources
+C:\Users\maddo\source\repos\One_Of_Us_Editor\One_Of_Us_Editor\obj\Debug\One_Of_Us_Editor.WorldEdit.resources
