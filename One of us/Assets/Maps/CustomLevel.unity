@@ -388,9 +388,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelCube: {fileID: 1597355707467533357, guid: a484fef0fa9e1c34298f724f2a3b5fc7, type: 3}
-  levelByte: 00111100
+  player: {fileID: 0}
+  levelByte: 0
   chunkSize: 4
-  askForFile: 0
+  totalChunk: 17
+  askForFile: 1
 --- !u!1001 &8392446839691632744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -400,7 +402,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8392446839915935044, guid: c3dcb561af6647b4f933c2ce807b760d, type: 3}
       propertyPath: locksOnStart
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8392446840972431041, guid: c3dcb561af6647b4f933c2ce807b760d, type: 3}
       propertyPath: m_Name

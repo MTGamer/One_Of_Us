@@ -7,9 +7,9 @@ using UnityEditor;
 public class levelGen : MonoBehaviour
 {
     // Varibles
-    public GameObject levelCube;
+    public GameObject levelCube, player;
     public string levelByte = "0011";
-    public int chunkSize;
+    public int chunkSize, totalChunk;
     public bool askForFile = false;
 
     private float xPOS, zPOS, yPOS;
@@ -17,6 +17,8 @@ public class levelGen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+
         if(askForFile) loadLevel();
         makeChunk();
     }
@@ -54,6 +56,11 @@ public class levelGen : MonoBehaviour
                 Instantiate(levelCube, new Vector3(xPOS, yPOS, zPOS) + transform.position, Quaternion.identity);
                 xPOS++;
             }
+            if(levelByte[i] == '2')
+            {
+                player.transform.position = new Vector3(xPOS, yPOS, zPOS) + transform.position;
+                xPOS++;
+            }
             if(xPOS >= chunkSize)
             {
                 zPOS++;
@@ -62,7 +69,7 @@ public class levelGen : MonoBehaviour
 
             normIndex++;
 
-            if(normIndex >= (chunkSize * chunkSize))
+            if(normIndex >= totalChunk)
             {
                 normIndex = 0;
                 yPOS++;
